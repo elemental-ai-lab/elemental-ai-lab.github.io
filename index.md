@@ -18,7 +18,7 @@ Elemental AI Lab develops the fundamental methods behind generative AI: probabil
   <p><strong>From Amsterdam to Singapore.</strong> We move from the <a href="{{ site.move.from_url }}">{{ site.move.from_unit }}</a> at the {{ site.move.from_institution }} to the <a href="{{ site.move.to_url }}">{{ site.move.to_unit }}</a> at {{ site.move.to_institution }} in {{ site.move.month }}. {{ site.lab.recruiting }}</p>
   {%- endif %}
   {%- if site.lab.recruiting != "" %}
-  <a class="move-link" href="{{ '/join/' | relative_url }}">Explore PhD opportunities <svg class="action-icon" aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h13m-5-5 5 5-5 5"/></svg></a>
+  <a class="move-link" href="{{ '/join/' | relative_url }}">Explore PhD and postdoc opportunities <svg class="action-icon" aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h13m-5-5 5 5-5 5"/></svg></a>
   {%- endif %}
 </aside>
 

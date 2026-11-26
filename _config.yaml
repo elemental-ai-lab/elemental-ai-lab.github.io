@@ -13,9 +13,9 @@ lab:
   github: https://github.com/elemental-ai-lab
   publications: https://scholar.google.com/citations?user=GQ6rOssAAAAJ
   # Shown on Home, Team and Join. Leave empty ("") to hide it everywhere.
-  recruiting: "We are recruiting multiple PhD students to start in August 2027."
+  recruiting: "We are recruiting multiple PhD students to start in August 2027 and welcome postdocs applying for fellowships."
   intake: August 2027
-  join_lead: "We are recruiting multiple PhD students to start in August 2027 at NTU Singapore."
+  join_lead: "We are recruiting multiple PhD students to start in August 2027 at NTU Singapore, and welcome postdocs applying for fellowships."
   # NTU research admissions: last day for the August 2027 intake (NTU admissions guide)
   admissions_deadline: 2027-01-31
   # Nanyang President's Graduate Scholarship: application period ends (NTU NPGS page)

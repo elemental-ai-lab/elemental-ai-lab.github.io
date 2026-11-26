@@ -26,7 +26,7 @@ description: PhD positions for August 2027, postdoctoral fellowships and student
     {%- endfor %}
   </ul>
   <p class="questions-note">We are particularly drawn to problems that unfold in real, physical time.</p>
-  <p class="who">We welcome excellent students with mathematical maturity, from backgrounds such as statistics, mathematics, computer science, physics and engineering.</p>
+  <p class="who">We welcome excellent students and postdocs with mathematical maturity, from backgrounds such as statistics, mathematics, computer science, physics and engineering.</p>
 </div>
 
 <div class="join-section">
@@ -47,7 +47,7 @@ description: PhD positions for August 2027, postdoctoral fellowships and student
   <p class="apply-next">Then <a href="https://gradadmissions.ntu.edu.sg/apply/">submit your application</a> to the <a href="https://www.ntu.edu.sg/computing/admissions/graduate-programmes/detail/ccds-phd-computing-datascience">PhD in Computing and Data Science</a> at NTU and name Christian Andersson Naesseth as your proposed supervisor.
   {% if now_s <= adm_s %}NTU’s <a href="https://www.ntu.edu.sg/admissions/graduate/radmissionguide">research admissions guide</a> gives {{ site.lab.admissions_deadline | date: '%-d %B %Y' }} as the last day to apply for the {{ site.lab.intake }} intake; the College of Computing and Data Science is not among the schools with an earlier deadline.{% else %}The application window that closed on {{ site.lab.admissions_deadline | date: '%-d %B %Y' }} has passed; see NTU’s <a href="https://www.ntu.edu.sg/admissions/graduate/radmissionguide">research admissions guide</a> for the next intake.{% endif %}
   {% if now_s <= npgs_s %}To be considered for the Nanyang President’s Graduate Scholarship, apply by {{ site.lab.npgs_deadline | date: '%-d %B %Y' }}.{% endif %}</p>
-  <p class="apply-other">For other enquiries, such as postdoctoral fellowships and research visits, email <a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a> with your dates and funding route.</p>
+  <p class="apply-other">For postdoctoral fellowship applications and research visits, email <a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a> with your CV, dates and funding route.</p>
 </div>
 
 <nav class="join-jumps" aria-label="Funding on this page">
