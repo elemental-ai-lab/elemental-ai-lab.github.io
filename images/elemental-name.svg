@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="458 14 457 155" role="img" aria-label="Elemental AI Lab">
+  <title>Elemental AI Lab</title>
+  <g  fill="none" stroke="var(--eai-lettering, #171521)" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(465 17) scale(1.13)" stroke-width="8.0" >
+      <path transform="translate(0 0)" d="M44 5H5V64H44 M5 34H36"/>
+      <path transform="translate(53 0)" d="M7 3V64"/>
+      <path transform="translate(70 0)" d="M6 44H44 C44 19 6 17 5 42 C4 63 28 72 42 58"/>
+      <path transform="translate(120 0)" d="M6 64V28 M6 43C6 22 34 21 34 41V64 M34 43C34 22 63 21 63 42V64"/>
+      <path transform="translate(193 0)" d="M6 44H44 C44 19 6 17 5 42 C4 63 28 72 42 58"/>
+      <path transform="translate(243 0)" d="M7 64V28 M7 44C7 22 41 20 41 43V64"/>
+      <path transform="translate(293 0)" d="M14 12V49 Q14 67 31 63 M4 30H30"/>
+      <path transform="translate(329 0)" d="M43 29V64 M43 46C43 20 6 20 6 46 C6 70 43 71 43 46"/>
+      <path transform="translate(381 0)" d="M7 3V64"/>
+    </g>
+    <g transform="translate(467 108) scale(0.86)" stroke-width="8.8" stroke="#7029ef">
+      <path transform="translate(0 0)" d="M4 63L28 6Q29 4 30 6L54 63"/>
+      <path transform="translate(59 0)" d="M7 5V64"/>
+    </g>
+    <g transform="translate(552 108) scale(0.86)" stroke-width="7.8" >
+      <path transform="translate(0 0)" d="M6 5V64H42"/>
+      <path transform="translate(49 0)" d="M43 29V64 M43 46C43 20 6 20 6 46 C6 70 43 71 43 46"/>
+      <path transform="translate(101 0)" d="M7 3V64 M7 46C7 20 44 20 44 46 C44 70 7 71 7 46"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+title: Elemental AI Lab
+description: Elemental AI Lab develops the fundamental methods behind generative AI and builds them with and for the physical and natural sciences and engineering.
+url: "https://elemental-ai-lab.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Singapore
+
+# Everything that changes over time lives here --------------------------------
+lab:
+  email: elemental.ai.lab@gmail.com
+  phd_email: elemental.ai.lab+phd@gmail.com
+  phd_subject: "[PhD 2027] Your name – topic"
+  github: https://github.com/elemental-ai-lab
+  publications: https://scholar.google.com/citations?user=GQ6rOssAAAAJ
+  # Shown on Home, Team and Join. Leave empty ("") to hide it everywhere.
+  recruiting: "We are recruiting multiple PhD students to start in August 2027."
+  intake: August 2027
+  join_lead: "We are recruiting multiple PhD students to start in August 2027 at NTU Singapore."
+  # NTU research admissions: last day for the August 2027 intake (NTU admissions guide)
+  admissions_deadline: 2027-01-31
+  # Nanyang President's Graduate Scholarship: application period ends (NTU NPGS page)
+  npgs_deadline: 2026-12-31
+
+move:
+  date: 2027-01-01            # wording switches at the first build on or after this day (Singapore time)
+  month: January 2027
+  from_unit: Amsterdam Machine Learning Lab
+  from_institution: University of Amsterdam
+  from_url: https://amlab.science.uva.nl/
+  to_unit: College of Computing and Data Science
+  to_institution: NTU Singapore
+  to_url: https://www.ntu.edu.sg/computing
+
+pi:
+  position_before: Assistant Professor (tenured) of Machine Learning, University of Amsterdam
+  position_after: College of Computing and Data Science, NTU Singapore   # TODO: add the NTU title
+
+group_photo:
+  image:        # e.g. /images/group-2027.webp
+  alt:
+  caption:
+
+banner_alt: "Particles flow from a cloud on the left into data on the right: a molecule, a sampled signal and, on wider screens, a contour map. One violet path is steered to a marked atom."
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+collections:
+  members:
+    output: false
+
+plugins:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _styles
+  sourcemap: never
+
+include:
+  - _styles
+exclude:
+  - README.md
+  - LICENSE.md
+  - NOTES.md
+  - facts.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - tools

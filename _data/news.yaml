@@ -1,0 +1,195 @@
+# Latest first. Use a full date and Markdown links in the text.
+- date: '2026-11-19'
+  text: Maria Marchenko and Odysseas Boufalis received their ELLIS Unit Amsterdam MSc Honours certificates.
+- date: '2026-10-13'
+  text: Christian was elected an [ELLIS Scholar](https://ellis.eu/members/fellows).
+- date: '2026-09-24'
+  text: Three papers from the lab and collaborators were accepted at [NeurIPS](https://neurips.cc/), including a
+    spotlight on higher-dimensional confidence sequences.
+  papers:
+  - title: On the Tightness and Computational Tractability of Higher-Dimensional Confidence Sequences
+    url: https://arxiv.org/abs/2610.03727
+    note: spotlight
+  - title: Re-evaluating Confidence Remasking in Masked Diffusion Language Models
+    url: https://arxiv.org/abs/2606.12232
+  - title: Maximin Robust Bayesian Experimental Design
+    url: https://arxiv.org/abs/2603.14094
+- date: '2026-08-04'
+  text: Ziwei Luo joined us for a PhD research visit from Uppsala University.
+- date: '2026-07-09'
+  text: Our paper with collaborators on sampling from diffusion language models was accepted at [COLM](https://colm.cc/).
+  papers:
+  - title: 'A Tale of Two Temperatures: Simple, Efficient, and Diverse Sampling from Diffusion Language Models'
+    url: https://arxiv.org/abs/2604.09921
+- date: '2026-07-06'
+  text: Our collaboration on radiation detectors was accepted for an oral presentation at [NSS MIC RTSD](https://nssmic.ieee.org/2026/).
+  papers:
+  - title: Simulation-based inference for uncertainty-aware interaction reconstruction in 3D CZT drift strip detectors
+- date: '2026-07-05'
+  text: Members and collaborators are presenting at ICML and its workshops on generative models, sparsification
+    and uncertainty.
+  papers:
+  - title: Joint Model and Data Sparsification via the Marginal Likelihood
+    url: https://arxiv.org/abs/2605.29908
+  - title: Re-evaluating Confidence Remasking in Masked Diffusion Language Models
+    url: https://openreview.net/forum?id=Bew2D82sWR
+    note: AdaptFM/SPIGM workshop
+  - title: 'A Tale of Two Temperatures: Simple, Efficient, and Diverse Sampling from Diffusion Language Models'
+    url: https://openreview.net/forum?id=5MSxa85tWH
+    note: AdaptFM/SPIGM workshop
+  - title: Uncertainty Estimation for Molecular Diffusion Models
+    url: https://openreview.net/forum?id=8AUVYYO0o0
+    note: SPIGM workshop
+  - title: Online Safety Monitoring for LLMs
+    url: https://openreview.net/forum?id=lNgPP6CUj2
+    note: Testing workshop
+- date: '2026-06-02'
+  text: Christopher Marouani joined us from ENS Paris-Saclay for a research visit.
+- date: '2026-05-01'
+  text: '[ICML](https://icml.cc/Conferences/2026) accepted our work with collaborators on joint model and data sparsification.'
+  papers:
+  - title: Joint Model and Data Sparsification via the Marginal Likelihood
+    url: https://arxiv.org/abs/2605.29908
+- date: '2026-03-12'
+  text: Four collaborations will be presented at ICLR workshops and the TMLR Journal-to-Conference track.
+  papers:
+  - title: Discrete Diffusion Inference-Time Control with Nested Sequential Monte Carlo
+    url: https://openreview.net/forum?id=RiSD8LL1Ok
+    note: ReALM-GEN workshop
+  - title: Avoiding the Tragedy of the Commons in AI Regulation via Dynamic Licensing
+    url: https://openreview.net/forum?id=QCEYqHijVO
+    note: AIMS workshop
+  - title: On the Role of Context in Zero-Shot Multivariate Time-Series Forecasting
+    url: https://openreview.net/forum?id=94FNJk9SjL
+    note: TSALM workshop
+  - title: Variational Pseudo Marginal Methods for Jet Reconstruction in Particle Physics
+    url: https://openreview.net/forum?id=pCapRF2vFf
+    note: TMLR J2C
+- date: '2026-03-05'
+  text: TMLR accepted our collaboration on flow matching for tabular data.
+  papers:
+  - title: Flow Matching for Tabular Data Synthesis
+    url: https://arxiv.org/abs/2512.00698
+- date: '2026-02-16'
+  text: Alejandro Valverde Mahou and Kenny Falkær Olsen joined us for PhD research visits from the Technical University
+    of Denmark.
+- date: '2026-01-22'
+  text: Our collaboration on optimal experimental design was accepted at [AISTATS](https://virtual.aistats.org/Conferences/2026).
+  papers:
+  - title: A Geometric Approach to Optimal Experimental Design
+    url: https://proceedings.mlr.press/v300/kerrigan26b.html
+- date: '2026-01-05'
+  text: Maria Marchenko and Odysseas Boufalis joined the group for MSc projects in generative modelling.
+- date: '2025-10-22'
+  text: Two papers received [TMLR certification](https://jmlr.org/tmlr/editorial-policies.html#certifications) for
+    the new [Journal-to-Conference track](https://x.com/hugo_larochelle/status/1980743206460694946).
+  papers:
+  - title: Variational Pseudo Marginal Methods for Jet Reconstruction in Particle Physics
+    url: https://openreview.net/forum?id=pCapRF2vFf
+  - title: E-Valuating Classifier Two-Sample Tests
+    url: https://openreview.net/forum?id=dwFRov8xhr
+- date: '2025-10-06'
+  text: Markus Mueller joined us from Erasmus University Rotterdam for a PhD research visit.
+- date: '2025-09-19'
+  text: Two of our collaborations were accepted at [NeurIPS](https://neurips.cc/).
+  papers:
+  - title: Monitoring Risks in Test-Time Adaptation
+    url: https://papers.nips.cc/paper_files/paper/2025/hash/746960ad49ddb47248970a0e1404230c-Abstract-Conference.html
+  - title: Reverse Diffusion Sequential Monte Carlo Samplers
+    url: https://arxiv.org/abs/2508.05926
+- date: '2025-09-18'
+  text: '[Heiko Zimmermann](https://heikozimmermann.com/) defended his PhD on probabilistic programs and generative
+    models.'
+- date: '2025-06-13'
+  text: Our collaboration with colleagues on risk monitoring is appearing at [UAI](https://auai.org/uai2025).
+  papers:
+  - title: On Continuous Monitoring of Risk Violations under Unknown Shift
+    url: https://openreview.net/forum?id=tpKhNjoErI
+    code: https://github.com/alextimans/risk-monitor
+- date: '2025-05-07'
+  text: Two papers with collaborators were accepted at [ICML](https://icml.cc/Conferences/2025).
+  papers:
+  - title: 'SDE Matching: Scalable and Simulation-Free Training of Latent Stochastic Differential Equations'
+    url: https://proceedings.mlr.press/v267/bartosh25a.html
+  - title: Controlled Generation with Equivariant Variational Flow Matching
+    url: https://proceedings.mlr.press/v267/eijkelboom25a.html
+- date: '2025-05-01'
+  text: Fabian Denoodt joined us from the University of Antwerp for a PhD research visit.
+- date: '2025-04-29'
+  text: '[SDE Matching](https://proceedings.mlr.press/v267/bartosh25a.html) received the Best Workshop Paper Award at [AABI](https://approximateinference.org/).'
+- date: '2025-03-05'
+  text: Christian is speaking about [SDE Matching](https://proceedings.mlr.press/v267/bartosh25a.html) and joining the variational
+    inference panel at the [Banff workshop on approximate Bayesian inference](https://www.birs.ca/events/2025/5-day-workshops/25w5335).
+- date: '2025-02-17'
+  text: Bahrul Nasution joined us from the University of Manchester for a Turing Scheme PhD research visit.
+- date: '2025-02-14'
+  text: Christian is presenting [SDE Matching](https://proceedings.mlr.press/v267/bartosh25a.html) and [Neural Flow Diffusion Models](https://papers.neurips.cc/paper_files/paper/2024/hash/871a8ccb9232487366feb5e2d9069915-Abstract-Conference.html)
+    at the [Oberwolfach workshop on deep generative models](https://publications.mfo.de/handle/mfo/4302).
+- date: '2025-01-22'
+  text: Two collaborations were accepted at [AISTATS](https://aistats.org/aistats2025/).
+  papers:
+  - title: 'Max-Rank: Efficient Multiple Testing for Conformal Prediction'
+    url: https://proceedings.mlr.press/v258/timans25a.html
+  - title: Variational Combinatorial Sequential Monte Carlo for Bayesian Phylogenetics in Hyperbolic Space
+    url: https://proceedings.mlr.press/v258/chen25f.html
+- date: '2025-01-01'
+  text: Hany Abdulsamad joined the group as a postdoctoral researcher.
+- date: '2024-11-01'
+  text: Christian will give a keynote at [NeurIPS Fest in Amsterdam](https://ivi.fnwi.uva.nl/ellis/neurips-fest-2024/)
+    on 28 November.
+- date: '2024-09-26'
+  text: Five papers with collaborators were accepted at [NeurIPS](https://neurips.cc/).
+  papers:
+  - title: 'Neural Flow Diffusion Models: Learnable Forward Process for Improved Diffusion Modelling'
+    url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/871a8ccb9232487366feb5e2d9069915-Abstract-Conference.html
+  - title: Equivariant Neural Diffusion for Molecule Generation
+    url: https://papers.nips.cc/paper_files/paper/2024/hash/587b3f360588143a751c37fcb3b5db7f-Abstract-Conference.html
+  - title: 'Fast yet Safe: Early-Exiting with Risk Control'
+    url: https://arxiv.org/abs/2405.20915
+  - title: 'VISA: Variational Inference with Sequential Sample-Average Approximations'
+    url: https://papers.nips.cc/paper_files/paper/2024/hash/fa948624dfde013671e72c1a7ca4aebc-Abstract-Conference.html
+  - title: Variational Flow Matching for Graph Generation
+    url: https://papers.nips.cc/paper_files/paper/2024/hash/15b780350b302a1bf9a3bd273f5c15a4-Abstract-Conference.html
+- date: '2024-09-09'
+  text: Christian is presenting work on diffusion models at the [Copenhagen workshop on generative models and uncertainty
+    quantification](https://genu.ai/2024/).
+- date: '2024-08-26'
+  text: The [UvA-Bosch Delta Lab](https://ivi.fnwi.uva.nl/uvaboschdeltalab/) and [AMLab](https://amlab.science.uva.nl/)
+    advertised a postdoctoral position in machine learning.
+- date: '2024-07-19'
+  text: The group and collaborators are presenting in Vienna at [AABI](https://approximateinference.org/) and [ICML](https://icml.cc/Conferences/2024).
+  papers:
+  - title: Neural Diffusion Models
+    url: https://proceedings.mlr.press/v235/bartosh24a.html
+    note: conference
+  - title: Equivariant Neural Diffusion for Molecule Generation
+    url: https://papers.nips.cc/paper_files/paper/2024/hash/587b3f360588143a751c37fcb3b5db7f-Abstract-Conference.html
+    note: AI4Science workshop
+  - title: 'Fast yet Safe: Early-Exiting with Risk Control'
+    url: https://openreview.net/forum?id=bNKXVR4wLY
+    note: SPIGM/ES-FOMO-II workshop
+- date: '2024-07-01'
+  text: Raghuram D R joined us from Bielefeld University to work on generative models for genomics.
+- date: '2024-03-01'
+  text: François Cornet joined us for a PhD research visit from the Technical University of Denmark.
+- date: '2024-02-14'
+  text: Christian is serving as programme chair for [AABI 2024](http://approximateinference.org/), co-located with
+    ICML.
+- date: '2023-12-21'
+  text: The [UvA-Bosch Delta Lab](https://ivi.fnwi.uva.nl/uvaboschdeltalab/) and [AMLab](https://amlab.science.uva.nl/)
+    advertised a postdoctoral position with an application deadline of 4 February 2024.
+- date: '2023-12-18'
+  text: Christian will take over as lab manager of the [UvA-Bosch Delta Lab](https://ivi.fnwi.uva.nl/uvaboschdeltalab/)
+    in 2024.
+- date: '2023-07-10'
+  text: Christian is presenting work on diffusion models at the ELLIS unConference in Paris.
+- date: '2023-02-28'
+  text: Christian is co-organising [AABI 2023](http://approximateinference.org/) at ICML.
+- date: '2022-12-16'
+  text: Christian was invited to speak on Bayesian computation at a [CMStatistics special session](http://www.cmstatistics.org/CMStatistics2022/invited.php).
+- date: '2022-09-01'
+  text: Grigory Bartosh joined the lab as a PhD student.
+- date: '2022-08-25'
+  text: Christian is giving a talk at the [workshop on Monte Carlo and approximate dynamic programming](https://workshop-on-monte-carlo2022.essec.edu/welcome).
+- date: '2022-08-09'
+  text: Christian is serving as a workflow chair for [AISTATS 2023](https://aistats.org/aistats2023/).

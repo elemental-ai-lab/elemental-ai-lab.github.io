@@ -1,0 +1,17 @@
+{% if page.collection == 'members' %}{% assign label = page.name %}{% else %}{% assign label = page.title | default: site.title %}{% endif %}
+{% capture page_title %}{% unless page.kind == 'home' %}{{ label }} | {% endunless %}{{ site.title }}{% endcapture %}
+{% assign summary = page.description | default: site.description %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title | strip | escape }}</title>
+<meta name="description" content="{{ summary | escape }}">
+<meta name="theme-color" content="#FAF9F6">
+<link rel="icon" type="image/svg+xml" href="{{ '/images/icon.svg' | relative_url }}">
+<link rel="canonical" href="{{ page.url | absolute_url | escape }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ page_title | strip | escape }}">
+<meta property="og:description" content="{{ summary | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url | escape }}">
+<meta property="og:image" content="{{ '/images/share.png' | absolute_url }}">
+<meta property="og:image:alt" content="Elemental AI Lab logo with particle paths flowing into a molecule, a contour map and a sampled signal">
+<meta name="twitter:card" content="summary_large_image">

@@ -1,0 +1,23 @@
+---
+---
+
+// The original mark is images/logo.png. These are the companion website colours.
+:root {
+  color-scheme: light;
+  --text: #111111;
+  --primary: #6c3cf0;
+  --link: #5130b8;
+  --background: #faf9f6;
+  --surface: #ffffff;
+  --muted: #52515a;
+  --line: #e1d9e8;
+  --wash: #f0ecfb;
+  --masthead-ink: #2d2439;
+  --masthead-current: #5624ae;
+  --masthead-paper: #f9f7fb;
+  --accent-rule: #9d77de;
+  --heading: "DM Sans", "Helvetica Neue", sans-serif;
+  --body: "DM Sans", "Helvetica Neue", sans-serif;
+  --width: clamp(910px, 66.7vw, 1360px);
+  --gutter: clamp(20px, 5.4vw, 76px);
+}

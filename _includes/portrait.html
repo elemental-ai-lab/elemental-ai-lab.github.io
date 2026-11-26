@@ -1,0 +1,26 @@
+{%- assign person = include.person -%}
+{%- assign role = site.data.roles | where: 'key', person.role | first -%}
+{%- assign href = nil -%}
+{%- if person.role == 'principal-investigator' -%}
+  {%- assign href = '/team/christian-naesseth/' | relative_url -%}
+{%- elsif person.links['home-page'] -%}
+  {%- assign href = person.links['home-page'] -%}
+{%- elsif person.links['google-scholar'] -%}
+  {%- assign href = 'https://scholar.google.com/citations?user=' | append: person.links['google-scholar'] -%}
+{%- endif -%}
+{%- if href %}<a class="portrait" href="{{ href | escape }}">{% else %}<div class="portrait">{% endif %}
+  {%- if person.image %}
+  <img class="portrait-image" src="{{ person.image | relative_url }}" width="64" height="64" loading="lazy" alt="">
+  {%- else %}
+  <span class="initials" aria-hidden="true">{{ person.initials | escape }}</span>
+  {%- endif %}
+  <span class="portrait-text">
+    <strong>{{ person.name | escape }}</strong>
+    {%- if person.group == 'alum' %}<span>{{ role.former | escape }}</span>{% endif %}
+    {%- if person.institution %}<small>{{ person.institution | escape }}</small>{% endif %}
+    {%- if person.cosupervisor %}<small>Co-supervised with {{ person.cosupervisor | escape }}</small>{% endif %}
+  </span>
+  {%- if href %}
+  <span class="card-arrow"><svg class="action-icon" aria-hidden="true" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h13m-5-5 5 5-5 5"/></svg></span>
+  {%- endif %}
+{% if href %}</a>{% else %}</div>{% endif %}

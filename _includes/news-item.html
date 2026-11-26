@@ -1,0 +1,13 @@
+<li class="news-item">
+  <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%d %b %Y' }}</time>
+  <div>
+    {{ item.text | markdownify }}
+    {% if item.papers %}
+      <ul class="news-papers">
+        {% for paper in item.papers %}
+          <li>{% if paper.url %}<a href="{{ paper.url | escape }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}{% if paper.note %} ({{ paper.note | escape }}){% endif %}{% if paper.code %} · <a href="{{ paper.code | escape }}">Code</a>{% endif %}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</li>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" data-dark="false">
+  {% include head.html %}
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include header.html %}
+    <main id="main" tabindex="-1" class="page-{{ page.kind | default: 'content' }}">
+      {% include content.html content=content %}
+    </main>
+    {% include footer.html %}
+    <script>
+      (function () {
+        function focusTarget() {
+          var id = decodeURIComponent(location.hash.slice(1));
+          var el = id && document.getElementById(id);
+          if (!el) return;
+          if (!el.hasAttribute('tabindex')) el.setAttribute('tabindex', '-1');
+          el.focus({ preventScroll: true });
+        }
+        addEventListener('hashchange', focusTarget);
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', focusTarget); else focusTarget();
+      })();
+    </script>
+  </body>
+</html>

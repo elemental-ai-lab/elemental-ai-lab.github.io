@@ -1,0 +1,29 @@
+# label: shown on current cards (the group heading already says it); former: shown on alumni cards
+- key: principal-investigator
+  heading: Principal investigator
+  label: Principal investigator
+  former: Former principal investigator
+- key: postdoc
+  heading: Postdoctoral researchers
+  label: Postdoctoral researcher
+  former: Former postdoctoral researcher
+- key: phd
+  heading: PhD students
+  label: PhD student
+  former: Former PhD student
+- key: visiting-phd
+  heading: Visiting PhD students
+  label: Visiting PhD student
+  former: Former visiting PhD student
+- key: msc
+  heading: MSc research students
+  label: MSc research student
+  former: Former MSc research student
+- key: visiting-student
+  heading: Visiting research students
+  label: Visiting research student
+  former: Former visiting research student
+- key: research-student
+  heading: Research students
+  label: Research student
+  former: Former research student

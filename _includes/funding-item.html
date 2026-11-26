@@ -1,0 +1,20 @@
+{%- assign f = include.f -%}
+{%- assign status = "" -%}
+{%- if f.deadline -%}
+  {%- assign d_s = f.deadline | date: '%s' | plus: 86399 -%}
+  {%- assign o_s = 0 -%}{%- if f.opens -%}{%- assign o_s = f.opens | date: '%s' | plus: 0 -%}{%- endif -%}
+  {%- if d_s < now_s -%}{%- assign status = "Closed – check for the next call" -%}
+  {%- elsif o_s > now_s -%}{%- capture status %}Applications {{ f.opens | date: '%-d %B' }} – {{ f.deadline | date: '%-d %B %Y' }}{% endcapture -%}
+  {%- else -%}{%- capture status %}Apply by {{ f.deadline | date: '%-d %B %Y' }}{% endcapture -%}{%- endif -%}
+  {%- if f.indicative and d_s >= now_s -%}{%- assign status = status | append: " (indicative)" -%}{%- endif -%}
+{%- endif %}
+<details class="route">
+  <summary>
+    <span class="route-name">{{ f.name | escape }}</span>
+    <span class="route-meta">{{ f.audience | escape }}{% if status != "" %}<span class="route-status">{{ status }}</span>{% endif %}</span>
+  </summary>
+  <div class="route-body">
+    <p>{{ f.summary | escape }}</p>
+    <p class="route-links"><a href="{{ f.url | escape }}">Official page</a></p>
+  </div>
+</details>

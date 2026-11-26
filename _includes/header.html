@@ -1,0 +1,21 @@
+<header class="masthead {% if page.kind == 'home' %}masthead--home{% else %}masthead--compact{% endif %}">
+  {%- if page.kind == 'home' %}
+  <div class="masthead-stage">
+    <div class="lab-identity" id="logo-stage">
+      {{ 'images/elemental-motion.svg' | file_read }}
+      <button id="replay" type="button" title="Replay logo animation" aria-label="Replay the Elemental AI Lab logo animation" hidden></button>
+    </div>
+    {% include navigation.html %}
+    <div class="masthead-art" role="img" aria-label="{{ site.banner_alt | escape }}"></div>
+  </div>
+  {%- else %}
+  <div class="masthead-stage">
+    <a class="compact-identity" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+      <img class="compact-mark" src="{{ '/images/mark.png' | relative_url }}" width="921" height="362" alt="">
+      <img class="compact-name" src="{{ '/images/elemental-name.svg' | relative_url }}" width="457" height="155" alt="">
+    </a>
+    {% include navigation.html %}
+    <div class="masthead-art" aria-hidden="true"></div>
+  </div>
+  {%- endif %}
+</header>

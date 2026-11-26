@@ -1,0 +1,6 @@
+<nav class="navigation" aria-label="Main navigation">
+  {%- assign menu = site.pages | where_exp: "item", "item.nav" | sort: "nav.order" -%}
+  {%- for item in menu %}
+  <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% elsif page.kind == item.kind %} aria-current="location"{% endif %}>{{ item.title | escape }}</a>
+  {%- endfor %}
+</nav>

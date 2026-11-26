@@ -1,0 +1,4 @@
+{%- comment -%} Sets `moved` from site.move.date (rebuilt weekly). {%- endcomment -%}
+{%- assign now_s = site.time | date: '%s' | plus: 0 -%}
+{%- assign move_s = site.move.date | date: '%s' | plus: 0 -%}
+{%- if now_s >= move_s -%}{%- assign moved = true -%}{%- else -%}{%- assign moved = false -%}{%- endif -%}

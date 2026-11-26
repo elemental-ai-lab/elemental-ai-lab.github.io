@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <title>EAI logo</title>
+  <desc>Minimal vector logo with a black three-stroke E and a purple crossbar-free A and I.</desc>
+
+  <!-- Transparent background -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- E -->
+    <g stroke="#111111" stroke-width="40">
+      <path d="M120 105 H390"/>
+      <path d="M120 210 H320"/>
+      <path d="M120 315 H390"/>
+    </g>
+
+    <!-- A without crossbar -->
+    <g stroke="#6C3CF0" stroke-width="40">
+      <path d="M505 315 L645 105 L785 315"/>
+    </g>
+
+    <!-- I -->
+    <g stroke="#6C3CF0" stroke-width="40">
+      <path d="M930 105 V315"/>
+    </g>
+  </g>
+</svg>

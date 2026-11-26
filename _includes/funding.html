@@ -1,0 +1,12 @@
+{%- assign now_s = site.time | date: '%s' | plus: 0 -%}
+{%- assign items = site.data.funding | where: 'section', include.section -%}
+<div class="route-list">
+  {%- for f in items %}{% unless f.more %}{% include funding-item.html f=f %}{% endunless %}{% endfor %}
+</div>
+{%- assign extra = items | where: 'more', true -%}
+{%- if extra.size > 0 %}
+<details class="extra-routes">
+  <summary>{{ include.more | escape }}</summary>
+  <div class="route-list">{% for f in extra %}{% include funding-item.html f=f %}{% endfor %}</div>
+</details>
+{%- endif %}

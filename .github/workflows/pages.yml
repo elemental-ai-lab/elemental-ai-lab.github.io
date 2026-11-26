@@ -1,0 +1,51 @@
+name: Publish lab site
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 5"   # Fridays 08:00 Singapore time: refreshes deadlines and the move note
+
+permissions:
+  contents: read
+  pages: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.4"
+          bundler-cache: true
+      - uses: actions/configure-pages@v5
+        id: pages
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          PAGES_ORIGIN: ${{ steps.pages.outputs.origin }}
+        run: |
+          printf 'url: "%s"\n' "$PAGES_ORIGIN" > "$RUNNER_TEMP/pages-url.yml"
+          bundle exec jekyll build --config "_config.yaml,$RUNNER_TEMP/pages-url.yml" --baseurl "$PAGES_BASE_PATH"
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v5
+        id: deployment

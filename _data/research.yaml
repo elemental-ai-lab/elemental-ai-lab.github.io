@@ -1,0 +1,56 @@
+# Home page research areas: one sentence each, selected work unchanged
+- id: generative-modelling
+  title: Generative and probabilistic modelling
+  text: Diffusion, flow, SDE, and other generative models built from first principles, especially for systems that evolve in physical time.
+  work:
+  - title: 'SDE Matching: Scalable and Simulation-Free Training of Latent Stochastic Differential Equations'
+    venue: ICML 2025
+    url: https://proceedings.mlr.press/v267/bartosh25a.html
+  - title: Variational Flow Matching for Graph Generation
+    venue: NeurIPS 2024
+    url: https://papers.nips.cc/paper_files/paper/2024/hash/15b780350b302a1bf9a3bd273f5c15a4-Abstract-Conference.html
+  - title: 'Neural Flow Diffusion Models: Learnable Forward Process for Improved Diffusion Modelling'
+    venue: NeurIPS 2024
+    url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/871a8ccb9232487366feb5e2d9069915-Abstract-Conference.html
+- id: uncertainty
+  title: Uncertainty quantification and statistical computation
+  text: Monte Carlo, variational inference and statistical tests that keep pace with ever larger models and tell us when to trust them.
+  work:
+  - title: Elements of Sequential Monte Carlo
+    venue: Foundations and Trends in Machine Learning, 2019
+    url: https://arxiv.org/abs/1903.04797
+  - title: On Continuous Monitoring of Risk Violations under Unknown Shift
+    venue: UAI 2025
+    url: https://openreview.net/forum?id=tpKhNjoErI
+  - title: On the Tightness and Computational Tractability of Higher-Dimensional Confidence Sequences
+    venue: NeurIPS 2026, spotlight
+    url: https://arxiv.org/abs/2610.03727
+- id: decision-making
+  title: Decision making and inference-time control
+  text: Turning uncertainty into action, so that models can choose their next experiment, learn from interaction and be steered at inference time.
+  work:
+  - title: Practical and Asymptotically Exact Conditional Sampling in Diffusion Models
+    venue: NeurIPS 2023
+    url: https://papers.nips.cc/paper_files/paper/2023/hash/63e8bc7bbf1cfea36d1d1b6538aecce5-Abstract-Conference.html
+  - title: Controlled Generation with Equivariant Variational Flow Matching
+    venue: ICML 2025
+    url: https://proceedings.mlr.press/v267/eijkelboom25a.html
+  - title: Maximin Robust Bayesian Experimental Design
+    venue: NeurIPS 2026
+    url: https://arxiv.org/abs/2603.14094
+  - title: Discrete Diffusion Inference-Time Control with Nested Sequential Monte Carlo
+    venue: ICLR 2026 workshop (ReALM-GEN)
+    url: https://openreview.net/forum?id=RiSD8LL1Ok
+- id: ai-for-science
+  title: AI for science and engineering
+  text: Working with scientists and engineers on the methods their future discoveries will rely on, from molecules and particle detectors to weather forecasting.
+  work:
+  - title: Equivariant Neural Diffusion for Molecule Generation
+    venue: NeurIPS 2024
+    url: https://papers.nips.cc/paper_files/paper/2024/hash/587b3f360588143a751c37fcb3b5db7f-Abstract-Conference.html
+  - title: Variational Pseudo Marginal Methods for Jet Reconstruction in Particle Physics
+    venue: TMLR 2024
+    url: https://openreview.net/forum?id=pCapRF2vFf
+  - title: 'SDECast: Probabilistic Weather Forecasting in Continuous Time with Neural SDEs'
+    venue: arXiv, 2026
+    url: https://arxiv.org/abs/2610.03313

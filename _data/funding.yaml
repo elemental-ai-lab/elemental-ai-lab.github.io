@@ -1,0 +1,134 @@
+# One entry per scheme. Keep it short: name, who it is for, one sentence, official link.
+# deadline (optional, YYYY-MM-DD): only if the official page states it. After that date the
+# build shows "Closed – check for the next call" automatically (weekly rebuild).
+# more: true puts the entry under the collapsed list of further options.
+# checked: the day the entry was last compared with its official page.
+
+- section: phd
+  name: NTU Research Scholarship
+  audience: All nationalities
+  summary: Covers tuition and a monthly stipend for full-time research students at NTU.
+  url: https://ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss
+  checked: 2026-11-25
+- section: phd
+  name: Nanyang President’s Graduate Scholarship
+  audience: All nationalities
+  summary: NTU’s premier scholarship for full-time PhD study, awarded by nomination; apply through the PhD application.
+  url: https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/npgs
+  deadline: 2026-12-31
+  checked: 2026-11-25
+- section: phd
+  name: Temasek Graduate Scholarship
+  audience: Singaporean PhD candidates
+  summary: For the PhD in Computing and Data Science at the College of Computing and Data Science; indicate your interest when you apply. Bond-free.
+  url: https://www.ntu.edu.sg/computing/admissions/graduate-programmes/temasek-graduate-scholarship
+  checked: 2026-11-25
+- section: phd
+  name: Provost Graduate Award
+  audience: All nationalities
+  summary: An NTU award for PhD students.
+  url: https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/pga
+  checked: 2026-11-25
+- section: phd
+  name: Yunqi PhD Scholarship in Science and Technology
+  audience: All nationalities
+  summary: For full-time PhD study in science and technology; indicate your interest in the scholarship section of the NTU application.
+  url: https://www.ntu.edu.sg/graduate-college/admissions/scholarships/yunqi-phd-scholarship-in-science-and-technology
+  checked: 2026-11-25
+- section: phd
+  more: true
+  name: A*STAR Graduate Scholarship
+  audience: Singapore citizens and permanent residents; graduates of Singapore universities
+  summary: Funds up to four years of PhD study at NTU or another Singapore university, with research at an A*STAR institute.
+  url: https://www.a-star.edu.sg/scholarships/home/scholarships/ags--scholarship
+  checked: 2026-11-25
+- section: phd
+  more: true
+  name: Singapore International Graduate Award (SINGA)
+  audience: International students
+  summary: A bond-free PhD award run by A*STAR with NTU and other Singapore universities.
+  url: https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa
+  checked: 2026-11-25
+- section: phd
+  more: true
+  name: Industrial postgraduate programmes
+  audience: EDB programme for Singapore citizens and permanent residents
+  summary: The College of Computing and Data Science lists the EDB Industrial Postgraduate Programme and the NTU–Kunlun programme among its research programmes.
+  url: https://www.ntu.edu.sg/graduate-college/admissions/programme/industrial-postgraduate-programme-(ipp)
+  checked: 2026-11-25
+- section: phd
+  more: true
+  name: VinGroup Graduate Scholarship
+  audience: Vietnamese students
+  summary: Offered by Vingroup for PhD and research master’s study at NTU.
+  url: https://www.ntu.edu.sg/graduate-college/admissions/scholarships/vingroup-graduate-scholarship
+  checked: 2026-11-25
+
+- section: postdocs
+  name: Wallenberg–NTU Presidential Postdoctoral Fellowship
+  audience: Within five years of the PhD
+  summary: One year at NTU and one year with a WASP research partner in Sweden, in areas that include artificial intelligence.
+  url: https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)
+  deadline: 2026-12-31
+  checked: 2026-11-25
+- section: postdocs
+  name: Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship
+  audience: Within three years of a PhD outside computer science
+  summary: Up to two years applying AI to engineering, the natural sciences or the mathematical sciences, with an NTU faculty member as project mentor.
+  url: https://www.ntu.edu.sg/research/research-careers/the-eric-and-wendy-schmidt-ai-in-science-postdoctoral-fellowship
+  deadline: 2026-12-31
+  checked: 2026-11-25
+- section: postdocs
+  name: NTU AI-for-X Postdoctoral Fellowship
+  audience: STEM PhDs conferred in 2023 or later
+  summary: Jointly supported by NTU and Singapore’s National Research Foundation.
+  url: https://www.ntu.edu.sg/research/research-careers/ntu-ai-for-x-postdoctoral-fellowship
+  deadline: 2026-10-30
+  checked: 2026-11-25
+- section: postdocs
+  name: Lee Kuan Yew Postdoctoral Fellowship
+  audience: Recent PhDs with at most one previous postdoc
+  summary: A three-year fellowship in engineering, science and medicine.
+  url: https://www.ntu.edu.sg/research/research-careers/lee-kuan-yew-postdoctoral-fellowship-(lkypdf)
+  deadline: 2027-02-10
+  checked: 2026-11-25
+- section: postdocs
+  more: true
+  name: NWO Rubicon
+  audience: Dutch Research Council (NWO)
+  summary: Funds a research period at an institute abroad.
+  url: https://www.nwo.nl/en/researchprogrammes/rubicon
+  deadline: 2026-12-01
+  checked: 2026-11-25
+- section: postdocs
+  more: true
+  name: MSCA Global Postdoctoral Fellowships
+  audience: European Commission
+  summary: 12 to 24 months with a host organisation outside Europe, followed by a 12-month return phase in Europe.
+  url: https://marie-sklodowska-curie-actions.ec.europa.eu/funding/msca-postdoctoral-fellowships-2027
+  opens: 2027-04-07
+  deadline: 2027-09-08
+  indicative: true
+  checked: 2026-11-25
+
+- section: visits
+  name: NTU Global Connect Fellowship
+  audience: Final-year bachelor’s or master’s students graduating in 2027 or 2028
+  summary: Two months of research at NTU, 1 July to 31 August 2027, with accommodation and a fellowship of S$5,000. Results by the end of May 2027.
+  url: https://www.ntu.edu.sg/about-us/global/global-connect-fellowship
+  opens: 2027-01-15
+  deadline: 2027-02-15
+  checked: 2026-11-25
+- section: visits
+  name: Visiting research students
+  audience: Students enrolled at another university
+  summary: Research at NTU under the direct supervision of NTU faculty; NTU charges registration and research fees.
+  url: https://www.ntu.edu.sg/education/student-exchanges/visiting---research-opportunities
+  checked: 2026-11-25
+- section: visits
+  more: true
+  name: ELLIS PhD Program, Academic Track
+  audience: PhD students in the ELLIS network
+  summary: An ELLIS Fellow or Scholar based outside Europe can co-supervise; students spend at least six months at the partner institution.
+  url: https://ellis.eu/research/phd-postdoc/guidelines-phd-admission-process
+  checked: 2026-11-25
