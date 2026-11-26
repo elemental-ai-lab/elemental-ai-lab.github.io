@@ -1,7 +1,7 @@
 # Home page research areas: one sentence each, selected work unchanged
 - id: generative-modelling
-  title: Generative and probabilistic modelling
-  text: Diffusion, flow, SDE, and other generative models built from first principles, especially for systems that evolve in physical time.
+  title: New foundations for generative models
+  text: The next diffusion, flow, SDE, and other generative models, built from first principles, especially for systems that evolve in physical time.
   work:
   - title: 'SDE Matching: Scalable and Simulation-Free Training of Latent Stochastic Differential Equations'
     venue: ICML 2025
@@ -13,8 +13,8 @@
     venue: NeurIPS 2024
     url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/871a8ccb9232487366feb5e2d9069915-Abstract-Conference.html
 - id: uncertainty
-  title: Uncertainty quantification and statistical computation
-  text: Monte Carlo, variational inference and statistical tests that keep pace with ever larger models and tell us when to trust them.
+  title: Uncertainty quantification at scale
+  text: Monte Carlo, variational inference and statistical tests built to keep pace with ever larger models, so we know when to trust them.
   work:
   - title: Elements of Sequential Monte Carlo
     venue: Foundations and Trends in Machine Learning, 2019
@@ -26,8 +26,8 @@
     venue: NeurIPS 2026, spotlight
     url: https://arxiv.org/abs/2610.03727
 - id: decision-making
-  title: Decision making and inference-time control
-  text: Turning uncertainty into action, so that models can choose their next experiment, learn from interaction and be steered at inference time.
+  title: From uncertainty to action
+  text: Models that design their own experiments, learn from interaction and can be steered at inference time.
   work:
   - title: Practical and Asymptotically Exact Conditional Sampling in Diffusion Models
     venue: NeurIPS 2023
@@ -42,8 +42,8 @@
     venue: ICLR 2026 workshop (ReALM-GEN)
     url: https://openreview.net/forum?id=RiSD8LL1Ok
 - id: ai-for-science
-  title: AI for science and engineering
-  text: Working with scientists and engineers on the methods their future discoveries will rely on, from molecules and particle detectors to weather forecasting.
+  title: AI for tomorrow’s science and engineering
+  text: Methods developed with scientists and engineers for the discoveries ahead, from molecules and particle detectors to weather forecasting.
   work:
   - title: Equivariant Neural Diffusion for Molecule Generation
     venue: NeurIPS 2024
