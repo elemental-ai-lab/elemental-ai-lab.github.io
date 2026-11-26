@@ -27,7 +27,7 @@
     url: https://arxiv.org/abs/2610.03727
 - id: decision-making
   title: From uncertainty to action
-  text: Models that design their own experiments, learn from interaction and can be steered at inference time.
+  text: Models and agents that design their own experiments, learn from interaction and can be steered at inference time.
   work:
   - title: Practical and Asymptotically Exact Conditional Sampling in Diffusion Models
     venue: NeurIPS 2023
